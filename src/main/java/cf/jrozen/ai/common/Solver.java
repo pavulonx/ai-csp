@@ -20,9 +20,9 @@ public abstract class Solver {
     }
 
     public Result run() {
-        var start = System.nanoTime();
+        long start = System.nanoTime();
         start();
-        var end = System.nanoTime();
+        long end = System.nanoTime();
         if (firstFoundNanos == null)
             firstFoundNanos = end;
         return new Result(end - start,  firstFoundNanos - start, size, solutions, entries, getClass().getSimpleName());

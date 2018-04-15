@@ -9,17 +9,17 @@ import static cf.jrozen.ai.common.FileUtils.printToCsv;
 
 public class LatinSquareMain {
     public static void main(String[] args) {
-        var range = 500;
-        var results = new LinkedList<Result>();
+        int range = 5;
+        LinkedList<Result> results = new LinkedList<Result>();
         IntStream.range(1, range + 1).forEach(dim -> {
 
-                    var nLatinBT = new LatinSquareBT(dim);
-                    var resLatinBT = nLatinBT.run();
+                    LatinSquareBT nLatinBT = new LatinSquareBT(dim);
+                    Result resLatinBT = nLatinBT.run();
                     System.out.println(resLatinBT);
                     results.add(resLatinBT);
 
-                    var nLatinFC = new LatinSquareFC(dim);
-                    var resLatinFC = nLatinFC.run();
+                    LatinSquareFC nLatinFC = new LatinSquareFC(dim);
+                    Result resLatinFC = nLatinFC.run();
                     System.out.println(resLatinFC);
                     results.add(resLatinFC);
                 }

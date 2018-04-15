@@ -8,14 +8,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="openjdk-10" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="flamegraph-profiler">
     <option name="includingMethodConfigs">
       <list>
         <MethodConfig>
-          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenFC" />
+          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenBT" />
           <option name="methodPatternString" value="*" />
           <option name="parameters">
             <list>
@@ -37,7 +37,7 @@
           </option>
         </MethodConfig>
         <MethodConfig>
-          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenBT" />
+          <option name="classPatternString" value="cf.jrozen.ai.latinsquare.LatinSquare*" />
           <option name="methodPatternString" value="*" />
           <option name="parameters">
             <list>
@@ -48,8 +48,7 @@
           </option>
         </MethodConfig>
         <MethodConfig>
-          <option name="classPatternString" value="NQueen*" />
-          <option name="enabled" value="false" />
+          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenFC" />
           <option name="methodPatternString" value="*" />
           <option name="parameters">
             <list>

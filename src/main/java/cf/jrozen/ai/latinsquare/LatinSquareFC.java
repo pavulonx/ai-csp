@@ -30,8 +30,8 @@ class LatinSquareFC extends LatinSquareSolver {
             return;
         }
         for (int i = 0; i < size; i++) {
-            var isColumnReserved = getColumn(cell, i);
-            var isRowReserved = getRow(cell, i);
+            AtomicBoolean isColumnReserved = getColumn(cell, i);
+            AtomicBoolean  isRowReserved = getRow(cell, i);
             if (!isColumnReserved.get() && !isRowReserved.get()) {
                 isColumnReserved.set(true);
                 isRowReserved.set(true);
