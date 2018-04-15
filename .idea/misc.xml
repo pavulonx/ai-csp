@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="openjdk-10" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="flamegraph-profiler">
+    <option name="includingMethodConfigs">
+      <list>
+        <MethodConfig>
+          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenFC" />
+          <option name="methodPatternString" value="*" />
+          <option name="parameters">
+            <list>
+              <Parameter>
+                <option name="type" value="*" />
+              </Parameter>
+            </list>
+          </option>
+        </MethodConfig>
+        <MethodConfig>
+          <option name="classPatternString" value="cf.jrozen.ai.nqueen.Main" />
+          <option name="methodPatternString" value="main" />
+          <option name="parameters">
+            <list>
+              <Parameter>
+                <option name="type" value="String[]" />
+              </Parameter>
+            </list>
+          </option>
+        </MethodConfig>
+        <MethodConfig>
+          <option name="classPatternString" value="cf.jrozen.ai.nqueen.NQueenBT" />
+          <option name="methodPatternString" value="*" />
+          <option name="parameters">
+            <list>
+              <Parameter>
+                <option name="type" value="*" />
+              </Parameter>
+            </list>
+          </option>
+        </MethodConfig>
+        <MethodConfig>
+          <option name="classPatternString" value="NQueen*" />
+          <option name="enabled" value="false" />
+          <option name="methodPatternString" value="*" />
+          <option name="parameters">
+            <list>
+              <Parameter>
+                <option name="type" value="*" />
+              </Parameter>
+            </list>
+          </option>
+        </MethodConfig>
+      </list>
+    </option>
+  </component>
+</project>
