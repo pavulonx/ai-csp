@@ -1,0 +1,11 @@
+name,dim,exec_time_nanos,first_found_time_nanos,solutions,entries
+LatinSquareBT,1,56825,13364,1,1
+LatinSquareBT,2,10493,5040,2,14
+LatinSquareBT,3,106266,11171,12,246
+LatinSquareBT,4,2378157,20623,576,20420
+LatinSquareBT,5,302082859,30709,161280,10764430
+LatinSquareFC,1,22484,19836,1,2
+LatinSquareFC,2,14209,6149,2,9
+LatinSquareFC,3,215009,14599,12,94
+LatinSquareFC,4,16640762,17699,576,5681
+LatinSquareFC,5,220589105,33224,161280,2314166
